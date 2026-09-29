@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "max_failures": 3,
+  "min_references": 5,
+  "key_screens": [
+    2,
+    3
+  ],
+  "frame": [
+    390,
+    844
+  ],
+  "font": "Noto Sans KR",
+  "colors": [
+    "#141414",
+    "#ffffff",
+    "#f3f3f3",
+    "#f0f0f0",
+    "#e0e0e0",
+    "#262626",
+    "#707070",
+    "#adadad",
+    "#0066ff"
+  ],
+  "spacing": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "sale_roles": [
+    "seller"
+  ],
+  "review_states": [
+    "pending",
+    "revision_requested",
+    "approved",
+    "rejected"
+  ],
+  "excluded": [
+    "market",
+    "purchase",
+    "payment",
+    "settlement",
+    "mission_feedback"
+  ],
+  "stages": [
+    "research",
+    "design",
+    "draft",
+    "system",
+    "screens"
+  ],
+  "live_evidence_max_age_seconds": 600,
+  "button_height": 48
+}
