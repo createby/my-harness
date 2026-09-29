@@ -1,0 +1,568 @@
+{
+  "font": "Noto Sans KR",
+  "tokens": [
+    {
+      "id": "VariableID:5:4",
+      "name": "raw/ink",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 0.0784313753247261,
+          "g": 0.0784313753247261,
+          "b": 0.0784313753247261,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-ink)"
+      }
+    },
+    {
+      "id": "VariableID:5:5",
+      "name": "color/ink",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:4"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-ink)"
+      }
+    },
+    {
+      "id": "VariableID:5:6",
+      "name": "raw/canvas",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-canvas)"
+      }
+    },
+    {
+      "id": "VariableID:5:7",
+      "name": "color/canvas",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:6"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-canvas)"
+      }
+    },
+    {
+      "id": "VariableID:5:8",
+      "name": "raw/soft",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 0.9529411792755127,
+          "g": 0.9529411792755127,
+          "b": 0.9529411792755127,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-soft)"
+      }
+    },
+    {
+      "id": "VariableID:5:9",
+      "name": "color/soft",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:8"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-soft)"
+      }
+    },
+    {
+      "id": "VariableID:5:10",
+      "name": "raw/field",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 0.9411764740943909,
+          "g": 0.9411764740943909,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-field)"
+      }
+    },
+    {
+      "id": "VariableID:5:11",
+      "name": "color/field",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:10"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-field)"
+      }
+    },
+    {
+      "id": "VariableID:5:12",
+      "name": "raw/border",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 0.8784313797950745,
+          "g": 0.8784313797950745,
+          "b": 0.8784313797950745,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-border)"
+      }
+    },
+    {
+      "id": "VariableID:5:13",
+      "name": "color/border",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:12"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-border)"
+      }
+    },
+    {
+      "id": "VariableID:5:14",
+      "name": "raw/muted",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 0.43921568989753723,
+          "g": 0.43921568989753723,
+          "b": 0.43921568989753723,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-muted)"
+      }
+    },
+    {
+      "id": "VariableID:5:15",
+      "name": "color/muted",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:14"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-muted)"
+      }
+    },
+    {
+      "id": "VariableID:5:16",
+      "name": "raw/accent",
+      "scopes": [],
+      "values": {
+        "5:0": {
+          "r": 0,
+          "g": 0.4000000059604645,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--raw-accent)"
+      }
+    },
+    {
+      "id": "VariableID:5:17",
+      "name": "color/accent",
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "5:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5:16"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-accent)"
+      }
+    },
+    {
+      "id": "VariableID:5:18",
+      "name": "space/0",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 0
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-0)"
+      }
+    },
+    {
+      "id": "VariableID:5:19",
+      "name": "space/4",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 4
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-4)"
+      }
+    },
+    {
+      "id": "VariableID:5:20",
+      "name": "space/8",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 8
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-8)"
+      }
+    },
+    {
+      "id": "VariableID:5:21",
+      "name": "space/12",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 12
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-12)"
+      }
+    },
+    {
+      "id": "VariableID:5:22",
+      "name": "space/16",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 16
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-16)"
+      }
+    },
+    {
+      "id": "VariableID:5:23",
+      "name": "space/24",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 24
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-24)"
+      }
+    },
+    {
+      "id": "VariableID:5:24",
+      "name": "space/32",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 32
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-32)"
+      }
+    },
+    {
+      "id": "VariableID:5:25",
+      "name": "space/48",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 48
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-48)"
+      }
+    },
+    {
+      "id": "VariableID:5:26",
+      "name": "space/64",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "5:1": 64
+      },
+      "codeSyntax": {
+        "WEB": "var(--space-64)"
+      }
+    },
+    {
+      "id": "VariableID:5:27",
+      "name": "radius/card",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "values": {
+        "5:1": 24
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-card)"
+      }
+    },
+    {
+      "id": "VariableID:5:28",
+      "name": "radius/media",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "values": {
+        "5:1": 16
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-media)"
+      }
+    },
+    {
+      "id": "VariableID:5:29",
+      "name": "radius/pill",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "values": {
+        "5:1": 999
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-pill)"
+      }
+    }
+  ],
+  "components": [
+    {
+      "node_id": "7:2",
+      "name": "Style=Primary",
+      "bindings": [
+        "itemSpacing",
+        "paddingLeft",
+        "paddingTop",
+        "paddingRight",
+        "paddingBottom",
+        "topLeftRadius",
+        "topRightRadius",
+        "bottomLeftRadius",
+        "bottomRightRadius",
+        "fills"
+      ],
+      "fillBindings": [
+        "VariableID:5:5"
+      ],
+      "children": [
+        {
+          "id": "7:3",
+          "font": "Noto Sans KR",
+          "style": "S:faca8d717661dd0f9c02f69d9acebeb6affee456,"
+        }
+      ]
+    },
+    {
+      "node_id": "7:4",
+      "name": "Style=Secondary",
+      "bindings": [
+        "itemSpacing",
+        "paddingLeft",
+        "paddingTop",
+        "paddingRight",
+        "paddingBottom",
+        "topLeftRadius",
+        "topRightRadius",
+        "bottomLeftRadius",
+        "bottomRightRadius",
+        "fills"
+      ],
+      "fillBindings": [
+        "VariableID:5:9"
+      ],
+      "children": [
+        {
+          "id": "7:5",
+          "font": "Noto Sans KR",
+          "style": "S:faca8d717661dd0f9c02f69d9acebeb6affee456,"
+        }
+      ]
+    },
+    {
+      "node_id": "7:6",
+      "name": "Style=Disabled",
+      "bindings": [
+        "itemSpacing",
+        "paddingLeft",
+        "paddingTop",
+        "paddingRight",
+        "paddingBottom",
+        "topLeftRadius",
+        "topRightRadius",
+        "bottomLeftRadius",
+        "bottomRightRadius",
+        "fills"
+      ],
+      "fillBindings": [
+        "VariableID:5:9"
+      ],
+      "children": [
+        {
+          "id": "7:7",
+          "font": "Noto Sans KR",
+          "style": "S:faca8d717661dd0f9c02f69d9acebeb6affee456,"
+        }
+      ]
+    },
+    {
+      "node_id": "7:9",
+      "name": "Access=Free",
+      "bindings": [
+        "itemSpacing",
+        "paddingLeft",
+        "paddingTop",
+        "paddingRight",
+        "paddingBottom",
+        "topLeftRadius",
+        "topRightRadius",
+        "bottomLeftRadius",
+        "bottomRightRadius",
+        "fills"
+      ],
+      "fillBindings": [
+        "VariableID:5:9"
+      ],
+      "children": [
+        {
+          "id": "7:10",
+          "font": "Noto Sans KR",
+          "style": "S:b7895000e4513b80282c3e8468904ec24c3f0ff9,"
+        },
+        {
+          "id": "7:11",
+          "font": "Noto Sans KR",
+          "style": "S:c9a741611a6b973d4806beaf41e8608ee352ff75,"
+        },
+        {
+          "id": "7:12",
+          "font": "Noto Sans KR",
+          "style": "S:fcdd4bdaf72ef7712a9e1e6a41a715c87cb52866,"
+        },
+        {
+          "id": "7:13",
+          "font": "Noto Sans KR",
+          "style": "S:b7895000e4513b80282c3e8468904ec24c3f0ff9,"
+        }
+      ]
+    },
+    {
+      "node_id": "7:14",
+      "name": "Access=Member",
+      "bindings": [
+        "itemSpacing",
+        "paddingLeft",
+        "paddingTop",
+        "paddingRight",
+        "paddingBottom",
+        "topLeftRadius",
+        "topRightRadius",
+        "bottomLeftRadius",
+        "bottomRightRadius",
+        "fills"
+      ],
+      "fillBindings": [
+        "VariableID:5:9"
+      ],
+      "children": [
+        {
+          "id": "7:15",
+          "font": "Noto Sans KR",
+          "style": "S:b7895000e4513b80282c3e8468904ec24c3f0ff9,"
+        },
+        {
+          "id": "7:16",
+          "font": "Noto Sans KR",
+          "style": "S:c9a741611a6b973d4806beaf41e8608ee352ff75,"
+        },
+        {
+          "id": "7:17",
+          "font": "Noto Sans KR",
+          "style": "S:fcdd4bdaf72ef7712a9e1e6a41a715c87cb52866,"
+        },
+        {
+          "id": "7:18",
+          "font": "Noto Sans KR",
+          "style": "S:b7895000e4513b80282c3e8468904ec24c3f0ff9,"
+        }
+      ]
+    }
+  ]
+}

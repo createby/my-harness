@@ -1,0 +1,51 @@
+{
+  "failures": {
+    "prepare": 0,
+    "research": 0,
+    "design": 0,
+    "draft": 0,
+    "approval": 0,
+    "system": 0,
+    "screens": 0
+  },
+  "blocked": false,
+  "results": [
+    {
+      "stage": "prepare",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "stage": "research",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "stage": "design",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "stage": "draft",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "stage": "approval",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "stage": "system",
+      "status": "pass",
+      "errors": []
+    },
+    {
+      "stage": "screens",
+      "status": "pass",
+      "errors": []
+    }
+  ],
+  "status": "pass",
+  "evidence_sha256": "14571c65525af88154cfe2e17e4f9f966e4f2881b096e882d1645f7467090766"
+}

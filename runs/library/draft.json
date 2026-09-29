@@ -1,0 +1,213 @@
+{
+  "frames": [
+    {
+      "screen_id": "library-list",
+      "node_id": "8:2",
+      "width": 390,
+      "height": 844,
+      "fonts": [
+        "Noto Sans KR"
+      ],
+      "colors": [
+        "#ffffff",
+        "#141414",
+        "#707070",
+        "#f0f0f0",
+        "#f3f3f3"
+      ],
+      "shadow_count": 0,
+      "instance_count": 5,
+      "errors": [],
+      "children": [
+        {
+          "id": "8:3",
+          "name": "Brand navigation",
+          "x": 16,
+          "y": 16,
+          "width": 358,
+          "height": 27
+        },
+        {
+          "id": "8:6",
+          "name": "Page heading",
+          "x": 16,
+          "y": 59,
+          "width": 358,
+          "height": 65
+        },
+        {
+          "id": "8:9",
+          "name": "Search field",
+          "x": 16,
+          "y": 140,
+          "width": 358,
+          "height": 47
+        },
+        {
+          "id": "8:11",
+          "name": "Access filters",
+          "x": 16,
+          "y": 203,
+          "width": 358,
+          "height": 48
+        },
+        {
+          "id": "8:18",
+          "name": "Results heading",
+          "x": 16,
+          "y": 267,
+          "width": 358,
+          "height": 27
+        },
+        {
+          "id": "8:21",
+          "name": "Resource results",
+          "x": 16,
+          "y": 310,
+          "width": 358,
+          "height": 290
+        },
+        {
+          "id": "8:32",
+          "name": "Recently viewed",
+          "x": 16,
+          "y": 616,
+          "width": 358,
+          "height": 47
+        },
+        {
+          "id": "8:35",
+          "name": "Bottom navigation",
+          "x": 16,
+          "y": 679,
+          "width": 358,
+          "height": 44
+        }
+      ],
+      "textBounds": [],
+      "postfix_bounds": {
+        "id": "8:2",
+        "width": 390,
+        "height": 844,
+        "overflow": [],
+        "buttons": [
+          {
+            "id": "8:12",
+            "width": 110,
+            "height": 48
+          },
+          {
+            "id": "8:14",
+            "width": 110,
+            "height": 48
+          },
+          {
+            "id": "8:16",
+            "width": 122,
+            "height": 48
+          },
+          {
+            "id": "8:22",
+            "width": 358,
+            "height": 139
+          },
+          {
+            "id": "8:27",
+            "width": 358,
+            "height": 139
+          }
+        ]
+      }
+    },
+    {
+      "screen_id": "resource-detail",
+      "node_id": "8:39",
+      "width": 390,
+      "height": 844,
+      "fonts": [
+        "Noto Sans KR"
+      ],
+      "colors": [
+        "#ffffff",
+        "#141414",
+        "#707070",
+        "#f3f3f3"
+      ],
+      "shadow_count": 0,
+      "instance_count": 1,
+      "errors": [],
+      "children": [
+        {
+          "id": "8:40",
+          "name": "Back navigation",
+          "x": 16,
+          "y": 16,
+          "width": 358,
+          "height": 20
+        },
+        {
+          "id": "8:43",
+          "name": "Resource heading",
+          "x": 16,
+          "y": 52,
+          "width": 358,
+          "height": 128
+        },
+        {
+          "id": "8:47",
+          "name": "Workbook cover",
+          "x": 16,
+          "y": 196,
+          "width": 358,
+          "height": 156
+        },
+        {
+          "id": "8:51",
+          "name": "Introduction",
+          "x": 16,
+          "y": 368,
+          "width": 358,
+          "height": 81
+        },
+        {
+          "id": "8:54",
+          "name": "Workbook contents",
+          "x": 16,
+          "y": 465,
+          "width": 358,
+          "height": 129
+        },
+        {
+          "id": "8:57",
+          "name": "워크북 다운로드.cta",
+          "x": 16,
+          "y": 610,
+          "width": 358,
+          "height": 48
+        },
+        {
+          "id": "8:59",
+          "name": "Download note",
+          "x": 16,
+          "y": 674,
+          "width": 358,
+          "height": 18
+        }
+      ],
+      "textBounds": [],
+      "postfix_bounds": {
+        "id": "8:39",
+        "width": 390,
+        "height": 844,
+        "overflow": [],
+        "buttons": [
+          {
+            "id": "8:57",
+            "width": 358,
+            "height": 48
+          }
+        ]
+      }
+    }
+  ]
+}

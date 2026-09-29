@@ -1,0 +1,37 @@
+{
+  "source": "Figma MCP use_figma",
+  "file_key": "UdgJB8EhvGi6GK912Ypzdm",
+  "observed_at": 1790690322.0,
+  "input_hashes": {
+    "harness/rules.yaml": "6a1209cb37cf71fe47160f0b4d30a02e01126e2a57c04191855352acc7b7fd67",
+    "harness/defaults.yaml": "dd85561c8c33ab3d2f6bca1bf56c230941bc3d89e920ff97e6a20ef090accfe0",
+    "harness/scripts/verify.py": "ac462d999d2160889de3760cdd8bf6692d6d79b4c82b69161ea555c557bc40b3",
+    "harness/scripts/run.py": "ad8a2fcc65f944bb14754fd1d2ee82db410dc91f80a059e766c3ba939ac01d8b",
+    "harness/scripts/live_evidence.py": "cdb858d66b7ee740ebc2cfe308f623addd05d1c3db596e4980c083a185528073",
+    "harness/scripts/collect-figma.js": "c09b374f5dfaae31da87173cbe63cfd465441f53edf4cab0e046550dc83db662",
+    "harness/scripts/prepare-evidence.py": "7518050844365dbccceb57f3c3dba56d7464382316f7232563ca5dcaf5f2ffe1",
+    "runs/library/research.json": "c146b7faed644ea5dfd43a86069d09c997616c2a6ab0d7ba6a8f181603fad6f6",
+    "runs/library/design.json": "7d9b6608b67cd6584afc4d43f064fc44266e42475770b7f5622e50ebd4ff56a4",
+    "runs/library/draft.json": "7b96f22f2d55b6dee4ddfc7823b750cbad8c61590f36fbabcba53ac15c54cfaa",
+    "runs/library/approval.json": "c25d679b49fe536cfd2a71ff4b44588677bd3ebfcbb8688065267a4707b35123",
+    "runs/library/system.json": "b5434794785a01df9c7ce9e7e0a22cd475ce9945e8029a4deb4bb1ab85c56852",
+    "runs/library/screens.json": "37d2b6246aef652314981a6ce3d0916d3c972b6e6ee4370e00493bf85df0499c",
+    "docs/decisions.md": "f65943a116a966ad3ab8e2b4a48a77d5d7c8551a710c8a452006f12d7742fe69",
+    "docs/design.md": "975ee3a606c5e5e5b5c9a0befeff12966d39202777fbed8f656cd1ca397881f2",
+    "docs/harness-purpose.md": "4679df4d68cdddd307ccf284d8a01a7834284c5b231fd845b71dbc514abd47fe",
+    "docs/interview-complete.md": "a1004ba454cef14c6edb6241fd0309e34dbac37f944984047af6f299ffbc3d46",
+    "docs/prd.md": "49c56925301ebc083f68413c7c8f75abfc485dbe92c33f5d22f4424454e6dcb8",
+    "docs/story-service.md": "69bb48b1338ae4c8a9b1459e5964e1a7b4a6a9681a2ac45139f6d5ed2df70528",
+    "docs/story-work.md": "1ac9b238130b434508e5dcc23eb153503b35b176e034eec529835c25c6af1694"
+  },
+  "snapshot_sha256": "93bdb349a0c66b3e9c2b670e229a0b4d010aba356c46ebfb36cf41c1ea02a606",
+  "visual_reviewed_nodes": [
+    "8:2",
+    "8:39",
+    "10:14",
+    "10:53",
+    "10:92",
+    "10:133"
+  ],
+  "visual_errors": []
+}

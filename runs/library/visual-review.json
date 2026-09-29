@@ -1,0 +1,13 @@
+{
+  "snapshot_sha256": "93bdb349a0c66b3e9c2b670e229a0b4d010aba356c46ebfb36cf41c1ea02a606",
+  "visual_reviewed_nodes": [
+    "8:2",
+    "8:39",
+    "10:14",
+    "10:53",
+    "10:92",
+    "10:133"
+  ],
+  "visual_errors": [],
+  "method": "Figma page screenshot inspected in this session; final read-back had no mutations since screenshot"
+}

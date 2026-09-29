@@ -1,0 +1,69 @@
+{
+  "topic": "자료실",
+  "screens": [
+    {
+      "id": "library-list",
+      "title": "자료실",
+      "sections": [
+        "자료실 제목과 설명",
+        "검색",
+        "전체/무료/멤버 필터",
+        "카테고리 필터",
+        "자료 카드 목록",
+        "최근 본 자료"
+      ],
+      "roles": [
+        "guest",
+        "free",
+        "paid",
+        "seller",
+        "admin"
+      ]
+    },
+    {
+      "id": "resource-detail",
+      "title": "자료 상세",
+      "sections": [
+        "뒤로 이동",
+        "자료명·유형·업데이트 날짜",
+        "자료 설명",
+        "권한에 따른 본문 또는 미리보기",
+        "파일 다운로드 또는 멤버십 안내"
+      ],
+      "roles": [
+        "guest",
+        "free",
+        "paid",
+        "seller",
+        "admin"
+      ]
+    }
+  ],
+  "features": [
+    "browse",
+    "filter",
+    "preview",
+    "download",
+    "recent"
+  ],
+  "service": {
+    "sale_roles": [
+      "seller"
+    ],
+    "review_states": [
+      "pending",
+      "revision_requested",
+      "approved",
+      "rejected"
+    ],
+    "asset_default": "private"
+  },
+  "states": [
+    "loading",
+    "empty",
+    "error",
+    "permission_denied",
+    "ready"
+  ],
+  "scope_note": "판매와 자산 등록은 이번 자료실 화면에 만들지 않으며 서비스 전역 정책만 유지한다."
+}
